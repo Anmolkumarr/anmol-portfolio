@@ -193,14 +193,24 @@ function App() {
         <section className="section" id="projects">
           <h2>Projects</h2>
           <div className="project-grid">
-            <div className="project-card">
-              <h3>Docker Practical Lab</h3>
-              <p>
-                Worked with Docker containers, images, Dockerfile, volumes,
-port mapping and Docker Compose through hands-on practice.
-              </p>
-              <span>Docker • Linux • Nginx</span>
-            </div>
+           <div className="project-card">
+  <h3>Dockerized Portfolio Website</h3>
+  <p>
+    Containerized my personal portfolio website using Docker and Nginx.
+    Built a multi-stage Docker image and deployed the React/Vite application
+    inside a Docker container.
+  </p>
+  <span>Docker • Nginx • React • Vite</span>
+
+  <a
+    href="https://github.com/Anmolkumarr/anmol-portfolio"
+    target="_blank"
+    rel="noreferrer"
+    className="project-link"
+  >
+    View Source →
+  </a>
+</div>
 
             <div className="project-card">
               <h3>Personal Portfolio Website</h3>
@@ -281,7 +291,7 @@ port mapping and Docker Compose through hands-on practice.
                 Bombay.
               </p>
               <span>HTML</span>
-              <a href="/html-certificate.png" target="_blank" className="project-link">
+              <a href="/HTML-certificate.png" target="_blank" className="project-link">
                 View Certificate →
               </a>
             </div>
@@ -358,7 +368,7 @@ port mapping and Docker Compose through hands-on practice.
           </div>
 
           <p className="copyright">
-            © Anmol Kumar. Built with React . Vite . css.
+            © 2026 Anmol Kumar. Built with React, Vite, Docker & Nginx.
           </p>
         </footer>
       </main>
