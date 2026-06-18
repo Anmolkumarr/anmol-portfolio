@@ -750,3 +750,71 @@ body {
   margin-top: 16px;
   text-align: center;
 }
+
+
+
+.stat-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+}
+
+.stat-card h3 {
+  font-size: clamp(34px, 5vw, 52px);
+  line-height: 1.1;
+  margin-bottom: 12px;
+  background: linear-gradient(90deg, #00c6ff, #7c5cff, #00ffd5);
+  -webkit-background-clip: text;
+  color: transparent;
+  overflow: visible;
+}
+
+.stat-card p {
+  text-align: center;
+}
+
+.hero::after {
+  content: "DEVOPS";
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: 8px;
+  color: rgba(255, 255, 255, 0.025);
+  pointer-events: none;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(143, 220, 255, 0.12),
+    transparent
+  );
+  transition: 0.6s;
+}
+
+.project-card:hover::before {
+  left: 120%;
+}
+
+
+.project-card br {
+  line-height: 2;
+}
+

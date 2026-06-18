@@ -81,19 +81,21 @@ function App() {
 
         <section className="hero">
           <div className="hero-text">
-            <p className="tag">AWS • Docker • Linux • Cloud Computing</p>
+            <p className="tag">AWS • Docker • Linux • GitHub Actions • CI/CD</p>
             <h1>Anmol Kumar</h1>
 
             <h2 className="gradient-title">
-            Aspiring Cloud Engineer
+            Cloud Engineer | DevOps Enthusiast | AWS Learner
             </h2>
 
             <p className="about">
-              Aspiring Cloud Engineer focused on AWS, Linux, Docker and DevOps.
-              Currently pursuing B.Tech in Computer Science at Maharishi
-              University of Information Technology, Noida. Passionate about
-              building scalable cloud infrastructure and continuously learning
-              modern cloud technologies.
+              <p className="about">
+            I am an aspiring Cloud Engineer building hands-on skills in AWS, Linux,
+            Docker, GitHub Actions and CI/CD. I have dockerized my portfolio using
+            Docker and Nginx, automated image builds with GitHub Actions, and deployed
+            it live on Vercel. Currently, I am focused on strengthening my cloud and
+             DevOps project portfolio.
+</p>
             </p>
 
             <div className="buttons">
@@ -116,6 +118,7 @@ function App() {
                 rel="noreferrer"
                 className="secondary"
               >
+                
                 LinkedIn
               </a>
             </div>
@@ -138,26 +141,47 @@ function App() {
         </section>
 
         <section className="section">
-          <h2>Quick Stats</h2>
-          <div className="project-grid">
-            <div className="project-card">
-              <h3>4+</h3>
-              <p>Technical Certifications</p>
-            </div>
-            <div className="project-card">
-              <h3>50+</h3>
-              <p>Linux Commands Practiced</p>
-            </div>
-            <div className="project-card">
-              <h3>10+</h3>
-              <p>Cloud Concepts Learned</p>
-            </div>
-            <div className="project-card">
-              <h3>4+</h3>
-              <p>Projects Completed</p>
-            </div>
-          </div>
-        </section>
+  <h2>Professional Summary</h2>
+
+  <div className="card">
+    <p>
+      I am a Computer Science student and aspiring Cloud Engineer with hands-on
+      experience in Linux, AWS, Docker, GitHub Actions and CI/CD. I enjoy
+      building cloud-native solutions, automating workflows and continuously
+      improving my DevOps skillset through practical projects.
+    </p>
+
+    <br />
+
+    <p>
+      My goal is to become a Cloud & DevOps Engineer capable of designing,
+      deploying and managing scalable infrastructure using modern cloud
+      technologies.
+    </p>
+  </div>
+</section>
+
+        <section className="section">
+  <h2>Quick Stats</h2>
+  <div className="project-grid">
+    <div className="project-card stat-card">
+      <h3>4+</h3>
+      <p>Projects Built</p>
+    </div>
+    <div className="project-card stat-card">
+      <h3>50+</h3>
+      <p>Linux Commands Practiced</p>
+    </div>
+    <div className="project-card stat-card">
+      <h3>20+</h3>
+      <p>AWS Services Learned</p>
+    </div>
+    <div className="project-card stat-card">
+      <h3>1</h3>
+      <p>CI/CD Pipeline Built</p>
+    </div>
+  </div>
+</section>
 
         <section className="section" id="education">
           <h2>Education</h2>
@@ -170,76 +194,161 @@ function App() {
         </section>
 
         <section className="section" id="skills">
-          <h2>Skills</h2>
-          <div className="skills">
-            <span>Linux</span>
-            <span>AWS</span>
-            <span>Docker</span>
-            <span>Cloud Networking</span>
-            <span>Git & GitHub</span>
-            <span>Python</span>
-            <span>Java</span>
-            <span>C</span>
-            <span>RDBMS</span>
-            <span>MySQL</span>
-            <span>HTML</span>
-            <span>Bootstrap</span>
-            <span>CI/CD</span>
-            <span>Kubernetes</span>
-            <span>Terraform</span>
-          </div>
-        </section>
+  <h2>Skills</h2>
 
-        <section className="section" id="projects">
-          <h2>Projects</h2>
-          <div className="project-grid">
-           <div className="project-card">
-  <h3>Dockerized Portfolio Website</h3>
-  <p>
-    Containerized my personal portfolio website using Docker and Nginx.
-    Built a multi-stage Docker image and deployed the React/Vite application
-    inside a Docker container.
-  </p>
-  <span>Docker • Nginx • React • Vite</span>
+  <div className="project-grid">
 
-  <a
-    href="https://github.com/Anmolkumarr/anmol-portfolio"
-    target="_blank"
-    rel="noreferrer"
-    className="project-link"
-  >
-    View Source →
-  </a>
-</div>
+    <div className="project-card">
+      <h3>☁️ Cloud Computing</h3>
+      <p>
+        AWS Fundamentals, IAM, EC2, EBS, S3, RDS, VPC,
+        Route 53, CloudWatch, Load Balancer, Auto Scaling.
+      </p>
+    </div>
 
-            <div className="project-card">
-              <h3>Personal Portfolio Website</h3>
-              <p>
-                Built a modern cloud engineer portfolio using React and Vite
-                with responsive design, premium UI and resume download option.
-              </p>
-              <span>React • Vite • CSS</span>
-            </div>
+    <div className="project-card">
+      <h3>⚙️ DevOps</h3>
+      <p>
+        Docker, Git, GitHub, GitHub Actions,
+        CI/CD Pipelines, Docker Hub, Nginx.
+      </p>
+    </div>
 
-            <div className="project-card">
-              <h3>AWS Foundation Labs</h3>
-              <p>
-                Practiced IAM, EC2, EBS, S3, RDS, CloudWatch, VPC, Route53,
-                Load Balancer and Auto Scaling concepts.
-              </p>
-              <span>AWS Cloud</span>
-            </div>
+    <div className="project-card">
+      <h3>🐧 Linux</h3>
+      <p>
+        Linux Administration, File Permissions,
+        User Management, Networking Commands,
+        Shell Navigation.
+      </p>
+    </div>
 
-            <div className="project-card">
-              <h3>Linux Practice Lab</h3>
-              <p>
-                Worked with Linux commands, file permissions, user management,
-                networking commands and shell navigation.
-              </p>
-              <span>Linux • Shell</span>
-            </div>
-          </div>
-        </section>
+    <div className="project-card">
+      <h3>💻 Programming</h3>
+      <p>
+        Java, Python, C, MySQL,
+        HTML, Bootstrap.
+      </p>
+    </div>
+
+  </div>
+</section>
+     <section className="section" id="projects">
+  <h2>Projects</h2>
+
+  <div className="project-grid">
+
+    <div className="project-card">
+      <h3>🚀 Dockerized Portfolio with CI/CD</h3>
+
+      <p>
+        Built and containerized my personal portfolio using React, Docker and
+        Nginx. Implemented GitHub Actions to automatically build Docker images
+        and push them to Docker Hub whenever code is pushed to GitHub.
+      </p>
+
+      <span>React • Docker • Nginx • GitHub Actions • CI/CD</span>
+
+      <a
+        href="https://github.com/Anmolkumarr/anmol-portfolio"
+        target="_blank"
+        rel="noreferrer"
+        className="project-link"
+      >
+        View Source →
+      </a>
+    </div>
+
+    <div className="project-card">
+      <h3>🌐 Cloud Engineer Portfolio</h3>
+
+      <p>
+        Designed and deployed a responsive cloud engineering portfolio
+        showcasing projects, certifications, technical skills and learning
+        roadmap. Hosted live on Vercel with a modern user interface and
+        optimized performance.
+      </p>
+
+      <span>React • Vite • CSS • Vercel</span>
+
+      <a
+        href="https://anmol-portfolio-phi.vercel.app/"
+        target="_blank"
+        rel="noreferrer"
+        className="project-link"
+      >
+        Live Demo →
+      </a>
+    </div>
+
+    <div className="project-card">
+      <h3>☁️ AWS Hands-On Lab Environment</h3>
+
+      <p>
+        Practiced real-world AWS services including IAM, EC2, EBS, S3, RDS,
+        CloudWatch, VPC, Route 53, Load Balancers and Auto Scaling through
+        hands-on labs and cloud architecture exercises.
+      </p>
+
+      <span>AWS • Networking • Cloud Infrastructure</span>
+    </div>
+
+    <div className="project-card">
+      <h3>🐧 Linux Administration Lab</h3>
+
+      <p>
+        Built a structured Linux practice environment covering file management,
+        permissions, user administration, shell navigation and networking
+        commands commonly used in cloud environments.
+      </p>
+
+      <span>Linux • Bash • System Administration</span>
+    </div>
+
+  </div>
+</section>  
+
+<section className="section">
+  <h2>Current Focus</h2>
+
+  <div className="project-grid">
+
+    <div className="project-card">
+      <h3>✅ Completed</h3>
+
+      <p>
+        Linux Foundation<br />
+        Cloud Networking<br />
+        AWS Foundation<br />
+        Docker<br />
+        Git & GitHub<br />
+        GitHub Actions CI/CD
+      </p>
+    </div>
+
+    <div className="project-card">
+      <h3>🔄 In Progress</h3>
+
+      <p>
+        Terraform<br />
+        Infrastructure as Code<br />
+        AWS Project Building
+      </p>
+    </div>
+
+    <div className="project-card">
+      <h3>🎯 Upcoming</h3>
+
+      <p>
+        Kubernetes<br />
+        Advanced AWS Projects<br />
+        DevOps Automation
+      </p>
+    </div>
+
+  </div>
+</section>
+
 
         <section className="section">
           <h2>Cloud Engineering Roadmap</h2>
@@ -250,9 +359,9 @@ function App() {
             <p>✅ Cloud Networking</p>
             <p>✅ AWS Foundation</p>
             <p>✅ Docker Theory & Practical</p>
-            <p>🔄 Git & GitHub</p>
-            <p>⏳ CI/CD</p>
-            <p>⏳ Kubernetes</p>
+            <p>✅ Git & GitHub</p>
+            <p>✅ CI/CD</p>
+            <p>🔄 Kubernetes</p>
             <p>⏳ Terraform</p>
           </div>
         </section>
@@ -347,7 +456,7 @@ function App() {
 
         <footer className="footer">
           <h3>Anmol Kumar</h3>
-          <p>Aspiring Cloud Engineer</p>
+          <p><p>Cloud Engineer | DevOps Enthusiast | AWS Learner</p></p>
 
           <div className="footer-links">
             <a href="mailto:01singhsahab19@gmail.com">Email</a>
@@ -368,7 +477,9 @@ function App() {
           </div>
 
           <p className="copyright">
-            © 2026 Anmol Kumar. Built with React, Vite, Docker & Nginx.
+           <p className="copyright">
+  © 2026 Anmol Kumar. Built with React, Docker, GitHub Actions & Cloud Passion ☁️
+</p>
           </p>
         </footer>
       </main>
